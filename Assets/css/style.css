@@ -280,3 +280,44 @@ margin-top: 75px;
 ::placeholder{
     color: red !important;
 }
+.table thead tr th{
+    background-color: hsl(359.36deg 80.34% 54.12%) !important;
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.table tbody tr td{
+    text-align: center;
+}
+.table tbody .lite-pnk td{
+    background-color: hsl(0deg 100% 88.04%) !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.table tbody .lite-1 td{
+    background-color: hsl(0deg 100% 92.75%) !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.table tbody .chnage-red td{
+    color: hsl(359.36deg 80.34% 54.12%) !important;
+}
+.table tbody tr td{
+    font-weight: 600;
+}
+.below-index{
+    margin-left: 25px !important;
+}
+.trade-laptop{
+    height: 370px;
+}
+.mo-down{
+    margin-top: 60px !important;
+}
+.ul .li{
+    height: 48px;
+}
+.ul .lis {
+    height: 160px;
+}
