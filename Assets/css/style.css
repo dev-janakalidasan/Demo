@@ -71,6 +71,12 @@
     color: #000 !important;
     font-size: 12px !important;
     padding: 12px 30px 12px 30px !important;
+}.btn-1:hover{
+    background-color: white !important;
+    font-weight: 600 !important;
+    color: #000 !important;
+    font-size: 12px !important;
+    padding: 12px 30px 12px 30px !important;
 }
 .start-trade{
     font-size: 12px;
@@ -105,6 +111,12 @@
 }
 .btn-2 {
     background-color: hsl(39.6deg 100% 80.39%) !important;
+    font-weight: 600 !important;
+    color: #000 !important;
+    font-size: 12px !important;
+    padding: 12px 50px 12px 50px !important;
+}.btn-2:hover {
+    background-color: #fff !important;
     font-weight: 600 !important;
     color: #000 !important;
     font-size: 12px !important;
