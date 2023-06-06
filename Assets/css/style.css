@@ -360,6 +360,70 @@ li::marker {
 }
 /* mobile */
 @media (max-width:578px){
+    .index-bg {
+        background-color: hsl(358.71deg 78.81% 46.27%) !important;
+        height: auto;
+    }
+    .black-box {
+        background-color: #000;
+        height: auto !important;
+        padding-bottom: 50px;
+    }.move-card {
+        margin-top: 0px;
+    }
+    .mobile-space{
+        margin-top: 20px;
+    }
+    .mobile-center{
+        display: flex;
+        justify-content: center;
+    }
+    .trade-laptop {
+        height: 240px;
+    }
+    .sear {
+        margin-top: 10px !important;
+    }
+    .line-2 {
+        margin-top: 70px !important;
+        margin-bottom: 30px;
+        margin-left: 0px;
+    }
+    .co-move {
+        margin-top: 10px !important;
+        margin-left: -20px !important;
+    }
+    .ul .lis {
+        height: 218px;
+    }
+    .line-3 {
+        margin-top: 0px !important;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+    .footer-bg {
+        background-color: #000;
+        height: auto !important;
+        padding-bottom: 40px;
+    }.index-trade {
+        padding-top: 30px;
+        color: hsl(39.6deg 100% 80.39%);
+        height: 75px;
+    }
+    .index-winner-top br{
+        display: none !important;
+    }
+    .reg-page br{
+        display: none !important;
+    }
+    .below-index br{
+        display: none !important;
+    }.ul .lis br{
+        display: none !important;
+    }
+    .copy-footer br{
+        display: none !important;
+    }
 
 }
 @media (min-width:1500px) and (max-width:1890px){
@@ -368,6 +432,7 @@ li::marker {
         margin-bottom: 30px;
         margin-left: 95px;
     }
+   
 }
 
 @media (min-width:1900px){
