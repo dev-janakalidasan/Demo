@@ -191,3 +191,76 @@ margin-top: 75px;
     margin-top: 37px;
     margin-left: -14px;
 }
+.reg-pages{
+    color: #000;
+}
+.card-titles-2{
+    background-color:hsl(359.36deg 80.34% 54.12%) !important ;
+    height: 60px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    color: #fff;
+}
+.red-card-pages{
+    width: 20rem;
+    height: 22rem !important;
+    background-color: hsl(358.95deg 68.25% 49.41%) !important;
+    display: flex;
+    justify-content: center !important;
+}
+.roun-page{
+    text-align: center;
+    display: grid;
+    align-items: center;
+    color: #fff;
+    height: 40px;
+
+}
+.com{
+    text-align: center;
+    display: grid;
+    align-items: center;
+    color: #fff;
+    font-size: 10px;
+}.mar{
+    text-align: center;
+    display: grid;
+    align-items: center !important;
+    color: #fff;
+    background-color:hsl(359.36deg 80.34% 54.12%) !important ;
+    padding: 15px 0px 15px 0px !important;
+    margin-top: -30px;
+    line-height: 30px;
+}.csc{
+    flex: 0 !important;
+}
+.mars{
+    text-align: center;
+    display: grid;
+    align-items: center !important;
+    color: #fff;
+}
+.change{
+    display: flex;
+    justify-content: center;
+}
+.line-2{
+    margin-top: 70px !important;
+    margin-bottom: 30px;
+    margin-left: 55px;
+}
+.rot{
+    height: 5px;
+    width: 20px;
+    background-color: red;
+    rotate: 90deg;
+    margin-top: -14px;
+}
+.rots{
+    height: 5px;
+    width: 20px;
+    background-color: red;
+    rotate: 90deg;
+    margin-top: -14px;
+}
