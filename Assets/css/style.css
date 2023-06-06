@@ -38,9 +38,19 @@
     color: red !important;
 }
 /* index */
+.white-bg {
+    background-color: #fff;
+    /* z-index: 1; */
+    position: relative;
+    margin-top: -30px;
+    padding-top: 1px;
+}
+.move-move{
+    padding-top: 60px !important;
+}
 .index-bg{
     background-color: hsl(358.71deg 78.81% 46.27%) !important;
-    height: 400px;
+    height: 500px;
 }
 .index-trade{
  padding-top: 30px;
@@ -68,7 +78,7 @@
     margin-top: 10px;
 }
 .reward{
-    height: 400px;
+    height: 440px;
 }
 .line-index{
     color: red;
@@ -343,4 +353,27 @@ li::marker {
 }
 .dsd{
     margin-bottom: 100px !important;
+}
+
+.mo-spend{
+    margin-left: 20px;
+}
+/* mobile */
+@media (max-width:578px){
+
+}
+@media (min-width:1500px) and (max-width:1890px){
+    .line-2 {
+        margin-top: 70px !important;
+        margin-bottom: 30px;
+        margin-left: 95px;
+    }
+}
+
+@media (min-width:1900px){
+    .line-2 {
+        margin-top: 70px !important;
+        margin-bottom: 30px;
+        margin-left: 95px;
+    }
 }
