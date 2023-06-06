@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif !important;
+}
+/*header*/
+.bg-color{
+    background-color: hsl(358.71deg 78.81% 46.27%) !important;
+}
+.hero-name {
+    font-weight: bolder;
+    color: #fff !important;
+    margin-left: 50px;
+}
+/* footer */
+.footer-bg{
+    background-color: #000;
+    height: 300px !important;
+}
+.footer-demo{
+    color: #fff;
+    font-weight: 500;
+  padding-top: 30px;
+  height: 70px;
+}
+.copy-footer{
+    color: #fff;
+    font-size: 15px;
+    line-height: 27px;
+
+}
+.footer-privacy{
+    color: red !important;
+    font-size: 12px;
+}
+.anger-footer{
+    color: red !important;
+}
