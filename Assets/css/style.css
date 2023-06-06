@@ -145,3 +145,49 @@
 .move-card{
 margin-top: 75px;
 }
+.mobile-tab{
+    height: 400px;
+    margin-top: 50px;
+}
+.one {
+    border: 1px solid hsl(358.71deg 78.81% 46.27%);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    align-items: center;
+    display: grid;
+    color: hsl(358.71deg 78.81% 46.27%);
+}
+.reg{
+    color: hsl(358.71deg 78.81% 46.27%);
+    height: 30px;
+}
+.are-ok-trade{
+    height: 30px;
+}
+.join{
+    color: hsl(39.81deg 44.07% 53.73%) !important;
+}
+.co-move{
+    margin-top: 10px !important;
+    margin-left: -50px !important;
+}.mos{
+    margin-top: 30px !important;
+}
+.linesa {
+    background-color: red;
+    height: 2px;
+    width: 92px;
+    rotate: 90deg;
+    margin-top: 45px;
+    margin-left: -21px;
+}
+.linesas {
+    background-color: red;
+    height: 2px;
+    width: 77px;
+    rotate: 90deg;
+    margin-top: 37px;
+    margin-left: -14px;
+}
