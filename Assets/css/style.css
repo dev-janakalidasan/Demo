@@ -321,3 +321,26 @@ margin-top: 75px;
 .ul .lis {
     height: 160px;
 }
+li::marker {
+    color: gray;
+    font-size: 12px;
+}
+.line-3{
+   
+        margin-top: 70px !important;
+        margin-bottom: 30px;
+   font-weight: bold;
+}
+.con-bg{
+    background-color: hsl(358.96deg 68.38% 49.61%) !important;
+}
+.index-last{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.colos{
+    font-weight: 600;
+}
+.dsd{
+    margin-bottom: 100px !important;
+}
