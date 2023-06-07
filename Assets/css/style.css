@@ -56,7 +56,7 @@
  padding-top: 30px;
  color: hsl(39.6deg 100% 80.39%);
  height: 60px;
- font-size: 19px !important;
+ font-size: 15px !important;
 }
 .global-chat
 {
@@ -67,7 +67,7 @@
 .top-trade{
     color: hsl(39.6deg 100% 80.39%);
     height: 30px;
-    font-size: 19px;
+    font-size: 15px;
 }
 .btn-1 {
     background-color: hsl(39.6deg 100% 80.39%) !important;
@@ -100,7 +100,7 @@
 }
 .black-box{
     background-color: #000;
-    height: 600px;
+    height: 740px;
 }
 .winner-award{
     color: hsl(358.71deg 78.81% 46.27%) ;
@@ -113,6 +113,9 @@
 }
 .index-winner-top{
     color: #fff;
+}
+.top-tr{
+    color: hsl(39.81deg 44.07% 53.73%);
 }
 .btn-2 {
     background-color: hsl(39.6deg 100% 80.39%) !important;
@@ -142,6 +145,7 @@
     font-weight: 600;
     color: #fff;
     line-height: 25px;
+    height: 95px;
 }
 .card-title-s{
     display: flex;
@@ -275,7 +279,7 @@ margin-top: 75px;
 .line-2{
     margin-top: 70px !important;
     margin-bottom: 30px;
-    margin-left: 55px;
+    margin-left: 52px;
 }
 .rot{
     height: 5px;
