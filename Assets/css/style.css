@@ -56,14 +56,18 @@
  padding-top: 30px;
  color: hsl(39.6deg 100% 80.39%);
  height: 60px;
+ font-size: 19px !important;
 }
 .global-chat
 {
     color: #fff;
+    font-size: 50px;
+   
 }
 .top-trade{
     color: hsl(39.6deg 100% 80.39%);
     height: 30px;
+    font-size: 19px;
 }
 .btn-1 {
     background-color: hsl(39.6deg 100% 80.39%) !important;
@@ -92,6 +96,7 @@
 .line-1{
     margin-top: 70px !important;
     margin-bottom: 30px;
+    font-weight: 600;
 }
 .black-box{
     background-color: #000;
@@ -358,20 +363,42 @@ li::marker {
 }
 .index-last{
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 100px;
 }
 .colos{
     font-weight: 600;
 }
-.dsd{
+.dsd {
     margin-bottom: 100px !important;
+    
 }
 
 .mo-spend{
     margin-left: 20px;
 }
+.fqa{
+    height: 350px;
+}.acc-change{
+    padding-top: 60px;
+}
+.accordion-button::after {
+    background-image: url(../Image/plus.svg) !important;
+    background-size: 70% !important;
+   }
+   .accordion-button:not(.collapsed)::after {
+    background-image:url(../Image/Vector.svg) !important;
+    transform: none !important;
+}
 /* mobile */
 @media (max-width:578px){
+    .dsd {
+        margin-bottom: 100px !important;
+        padding-bottom: 0px;
+    }
+    .fqa {
+        height: 255px;
+        margin-top: 30px;
+    }
     .index-bg {
         background-color: hsl(358.71deg 78.81% 46.27%) !important;
         height: auto;
@@ -400,6 +427,7 @@ li::marker {
         margin-top: 70px !important;
         margin-bottom: 30px;
         margin-left: 0px;
+        font-weight: 600;
     }
     .co-move {
         margin-top: 10px !important;
@@ -417,10 +445,12 @@ li::marker {
         background-color: #000;
         height: auto !important;
         padding-bottom: 40px;
+        font-weight: 600;
     }.index-trade {
         padding-top: 30px;
         color: hsl(39.6deg 100% 80.39%);
         height: 75px;
+        
     }
     .index-winner-top br{
         display: none !important;
@@ -436,6 +466,14 @@ li::marker {
     .copy-footer br{
         display: none !important;
     }
+    .global-chat {
+        color: #fff;
+        font-size: 30px;
+    }.hero-name {
+        font-weight: bolder;
+        color: #fff !important;
+        margin-left: 0px;
+    }
 
 }
 @media (min-width:1500px) and (max-width:1890px){
@@ -444,6 +482,23 @@ li::marker {
         margin-bottom: 30px;
         margin-left: 95px;
     }
+    .index-trade{
+        padding-top: 30px;
+        color: hsl(39.6deg 100% 80.39%);
+        height: 60px;
+        font-size: 19px !important;
+       }
+       .global-chat
+       {
+           color: #fff;
+           font-size: 50px;
+          
+       }
+       .top-trade{
+           color: hsl(39.6deg 100% 80.39%);
+           height: 30px;
+           font-size: 19px;
+       }
    
 }
 
