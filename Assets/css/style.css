@@ -38,6 +38,9 @@
     color: red !important;
 }
 /* index */
+.up-directin{
+    margin-top: -30px !important;
+}
 .white-bg {
     background-color: #fff;
     /* z-index: 1; */
@@ -280,6 +283,7 @@ margin-top: 75px;
     margin-top: 70px !important;
     margin-bottom: 30px;
     margin-left: 52px;
+    font-weight: 600;
 }
 .rot{
     height: 5px;
@@ -395,6 +399,10 @@ li::marker {
 }
 /* mobile */
 @media (max-width:578px){
+    .are-ok-trade {
+        height: 30px;
+        font-size: 14px;
+    }
     .dsd {
         margin-bottom: 100px !important;
         padding-bottom: 0px;
@@ -485,12 +493,13 @@ li::marker {
         margin-top: 70px !important;
         margin-bottom: 30px;
         margin-left: 95px;
+        font-weight: 600;
     }
     .index-trade{
         padding-top: 30px;
         color: hsl(39.6deg 100% 80.39%);
         height: 60px;
-        font-size: 19px !important;
+        font-size: 15px !important;
        }
        .global-chat
        {
@@ -501,7 +510,7 @@ li::marker {
        .top-trade{
            color: hsl(39.6deg 100% 80.39%);
            height: 30px;
-           font-size: 19px;
+           font-size: 15px;
        }
    
 }
@@ -511,5 +520,6 @@ li::marker {
         margin-top: 70px !important;
         margin-bottom: 30px;
         margin-left: 95px;
+        font-weight: 600;
     }
 }
