@@ -242,6 +242,7 @@ margin-top: 75px;
     background-color: hsl(358.95deg 68.25% 49.41%) !important;
     display: flex;
     justify-content: center !important;
+    margin-top: -50px ;
 }
 .roun-page{
     text-align: center;
@@ -354,7 +355,9 @@ margin-top: 75px;
     height: 48px;
 }
 .ul .lis {
-    height: 160px;
+    height: 144px;
+}.ul .lia {
+    height: 48px;
 }
 li::marker {
     color: gray;
@@ -399,6 +402,9 @@ li::marker {
 }
 /* mobile */
 @media (max-width:578px){
+    .ul .lia {
+        height: 75px;
+    }
     .are-ok-trade {
         height: 30px;
         font-size: 14px;
@@ -485,6 +491,14 @@ li::marker {
         font-weight: bolder;
         color: #fff !important;
         margin-left: 0px;
+    }
+    .red-card-pages{
+        width: 20rem;
+        height: 22rem !important;
+        background-color: hsl(358.95deg 68.25% 49.41%) !important;
+        display: flex;
+        justify-content: center !important;
+        margin-top: 0px ;
     }
 
 }
